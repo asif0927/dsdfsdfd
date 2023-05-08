@@ -1,0 +1,39 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header{
+  height: 100px;
+  background-color: blue;
+  display: flex;
+  justify-content: space-between;
+}
+header .de{
+  display: flex;
+  flex-direction: row;
+}
+header .de input{
+  margin: 10px 20px;
+  width: 250px;
+  height: 40px;
+}
+header .de button{
+  margin: 10px 20px;
+  width: 250px;
+  height: 40px;
+}
+.wishlist{
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  height:40px;
+  width: 100px;
+  margin: 10px 20px;
+}
+.wishlist i{
+  color: black;
+}
+.wishlist span{
+  color: black;
+}
